@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="AzureConnection-Web.config Connection String" description="AzureConnection Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:cdnanalytics.database.windows.net,1433;Initial Catalog=CDNAnalytics;Persist Security Info=False;User ID=cdnanalytics;Password=Welcome@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\MARUTHU\\source\\repos\\CDN_APP_Api\\CDN_APP_Api\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AzureConnection']/@connectionString" />
+  </parameter>
+</parameters>
